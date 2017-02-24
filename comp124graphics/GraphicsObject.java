@@ -54,7 +54,7 @@ public abstract class GraphicsObject {
     // ------ Observers ------
 
     /**
-     * Adds an observer to be notified of this turtle's motions (typically for the purpose of
+     * Adds an observer to be notified of this objects changes (typically for the purpose of
      * drawing them to paper).
      */
     public void addObserver(GraphicsObserver observer) {
